@@ -25,13 +25,23 @@ form{
     padding: 25px;
 }
 
+#remember{
+    cursor: pointer;
+}
+
 #login_btn{
     padding: 12px 20px;
     border-radius: 15px;
     border: none;
-    background-color: #1C4D8D;
+    background-color: #0F2854;
+    color: #D1855C;
     cursor: pointer;
     margin: 8px 0;
+}
+
+#login_btn:hover{
+    background-color: #4988C4;
+    color: white;
 }
 
 #colortext{
