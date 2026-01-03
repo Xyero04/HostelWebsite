@@ -29,11 +29,12 @@ form{
     mix-blend-mode: multiply;
 }
 
-#remember{
-    cursor: pointer;
+a{
+    text-decoration: none;
+    color: #D1855C;
 }
 
-#login_btn{
+#login_btn,#back_btn{
     padding: 12px 20px;
     border-radius: 15px;
     border: none;
@@ -41,17 +42,14 @@ form{
     color: #D1855C;
     cursor: pointer;
     margin: 8px 0;
+    text-align: center;
 }
 
-#login_btn:hover{
+#login_btn:hover, 
+#back_btn:hover
+{
     background-color: #4988C4;
     color: white;
-}
-
-a{
-    color: #1C4D8D;
-    cursor: pointer;
-    text-decoration: none;
 }
 
 input[type="text"]{
