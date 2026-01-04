@@ -20,10 +20,9 @@ body {
     text-align: center;
 }
 
-span,label{
-    margin-left:5px;
+#yulogo{
+    mix-blend-mode: multiply;
 }
-
 
 form{
     background-color: #D1855C;
@@ -34,16 +33,7 @@ form{
     padding: 25px;
 }
 
-#yulogo{
-    mix-blend-mode: multiply;
-}
-
-a{
-    text-decoration: none;
-    color: #D1855C;
-}
-
-#login_btn,#back_btn{
+#user_btn,#admin_btn{
     padding: 12px 20px;
     border-radius: 15px;
     border: none;
@@ -54,22 +44,17 @@ a{
     text-align: center;
 }
 
-#login_btn:hover, 
-#back_btn:hover
+#ask_profile{
+    text-align: center;
+    color: #4988C4;
+    font-size: 30px;
+}
+
+#user_btn:hover, 
+#admin_btn:hover
 {
     background-color: #4988C4;
     color: white;
-}
-
-input[type="text"]{
-    padding: 7px 12px;
-    border-radius: 15px;
-    margin: 10px 0;
-    border: none;
-}
-
-input[type="text"]:focus{
-    outline: none;
 }
 
 @keyframes backgroundmovement {

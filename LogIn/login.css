@@ -1,3 +1,7 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body {
     height: 100vh;
     background: linear-gradient(125deg, #0F2854, #1C4D8D, #4988C4);
@@ -27,6 +31,10 @@ form{
 
 #yulogo{
     mix-blend-mode: multiply;
+}
+
+span,label{
+    margin-left:5px;
 }
 
 #remember{
