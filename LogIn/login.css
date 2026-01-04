@@ -41,7 +41,7 @@ span,label{
     cursor: pointer;
 }
 
-#login_btn{
+#login_btn,#confirm_btn,#back_btn{
     padding: 12px 20px;
     border-radius: 15px;
     border: none;
@@ -49,9 +49,10 @@ span,label{
     color: #D1855C;
     cursor: pointer;
     margin: 8px 0;
+    text-align: center;
 }
 
-#login_btn:hover{
+#login_btn:hover,#confirm_btn:hover,#back_btn:hover{
     background-color: #4988C4;
     color: white;
 }

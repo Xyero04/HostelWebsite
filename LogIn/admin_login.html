@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UY Living</title>
+    <title>Admin Login</title>
     <link rel="stylesheet" href="login.css">
-    <link rel="icon" href="../Photo/uylivinglogo.png">
 </head>
 <body>
     <div class="container">
@@ -13,20 +12,16 @@
             <div class="image_container">
                <img src="../Photo/uylivinglogo.png" alt="" id="yulogo" width="100px"> 
             </div>
-            <label for="name">Name</label>
+            <label for="name">Admin Name</label>
             <input type="text" id="name">
-            <label for="id">Unversity Registration Number</label>
-            <input type="text" id="id" placeholder="Eg : Yata-******">
+            <label for="id">Password</label>
+            <input type="text" id="id" placeholder="***********">
             <div class="checkbox_container">
                 <label for="remember">Remember Password</label>
                 <input type="checkbox" id="remember">
             </div>
-            <button id="login_btn">Log In</button>
-            <span>You don't have account yet?
-                <span id="colortext">
-                    <a href="../SignUp/signup.html">Register</a>
-                </span>
-            </span>
+            <button id="confirm_btn">Confirm</button>
+            <a href="../Profile/profile.html" id="back_btn">Back</a>
         </form> 
     </div>
 </body>

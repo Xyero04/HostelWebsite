@@ -20,6 +20,11 @@ body {
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: #D1855C;
+}
+
 #yulogo{
     mix-blend-mode: multiply;
 }
