@@ -4,6 +4,45 @@
     margin: 0;
 }
 
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #cb8b6b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+#yulogo {
+    mix-blend-mode: multiply;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: #2a3d50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 25px;
+    color: #2a3d50;
+}
+
+p {
+    line-height: 1.7;
+    color: #2a3d50;
+    margin-top: 15px;
+}
+
+.mission {
+    margin-top: 25px;
+    background-color: #eef3f8;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+}
+
 nav{
     background-color: #D1855C;
     display: flex;
@@ -30,15 +69,11 @@ li{
     cursor: pointer;
 }
 
-p{
-    margin-bottom: 15px;
-}
-
 li.active a{
     color: #2D3C59;
 }
 
-#search_input {
+#search_input{
     padding: 7px 12px;
     border-radius: 15px;
     margin: 10px 0;
@@ -53,16 +88,14 @@ li.active a{
     mix-blend-mode: multiply;
 }
 
-#menu_btn,#search_btn{
+#search_btn,#menu_btn{
     padding: 5px;
     background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
-#search_btn {
-    width: auto;
-    color: black;
+#search_btn{
     font-size: 20px;
 }
 
@@ -75,76 +108,7 @@ li.active a{
     display: none;
 }
 
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-#contact_form {
-    background-color: #D1855C;
-    width: 800px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-    margin: 15px auto;
-}
-
-#yulogo {
-    mix-blend-mode: multiply;
-    margin: auto;
-    display: block;
-}
-
-#name,
-#email,
-textarea {
-    width: 95%;
-    padding: 7px 12px;
-    border-radius: 15px;
-    margin: 10px 0;
-    border: none;
-    font-size: 14px;
-    display: block;
-}
-
-#name:focus,
-#email:focus,
-textarea:focus {
-    outline: none;
-}
-
-textarea {
-    resize: none;
-    height: 100px;
-}
-
-button {
-    width: 100%;
-    padding: 12px 20px;
-    border-radius: 15px;
-    border: none;
-    background-color: #0F2854;
-    color: #D1855C;
-    cursor: pointer;
-    margin: 8px 0;
-}
-
-button:hover {
-    background-color: #4988C4;
-    color: white;
-}
-
-.contact-info {
-    text-align: center;
-    font-size: 14px;
-    margin-top: 15px;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width:767px){
     #menu_btn{
         display: inline-block;
     }
@@ -179,7 +143,7 @@ button:hover {
         transition: all 2s;
     }
 
-    #contact_form {
+    .about-container{
         width: 400px;
     }
 }
@@ -190,7 +154,7 @@ button:hover {
         font-size: 15px;
     }
 
-    #contact_form {
+    .about-container{
         width: 550px;
     }
 }
