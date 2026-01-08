@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="../Photo/uylivinglogo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="contact-container">
+        <nav id="nav_bar_container">
+            <span id="menu_btn">
+                <i class="bi bi-list"></i>
+            </span>
+            <ul class="nav_bar">
+                <span id="close_btn"><i class="bi bi-x"></i></span>
+                <img src="../Photo/uylivinglogo.png" alt="" id="yulogo" width="100px"> 
+                <li >
+                    <a href="../Home/home.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Hostels in university</a>
+                </li>
+                <li>
+                    <a href="">About Us</a>
+                </li>
+                <li class="active">
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+            <form action="">
+                <input type="text" id="search_input" placeholder="Search Rooms...">
+                <button id="search_btn"><i class="bi bi-search"></i></button>
+            </form>
+        </nav>
+
+        <form action="" method="" id="contact_form">
+        <div class="image_container">
+               <img src="../Photo/uylivinglogo.png" alt="" id="yulogo" width="100px"> 
+        </div>
+        <p>If you have any questions or problems, please contact us.</p>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Example-***@gmail.com" required>
+            <label for="message">Message</label>
+            <textarea rows="5" placeholder="Enter your message" id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        <div class="contact-info">
+            <p><strong>Email:</strong>uyliving21@gmail.com</p>
+            <p><strong>Phone:</strong>09-463278979,09894487131</p>
+            <p><strong>Address:</strong>Yangon, Myanmar</p>
+        </div>
+        </form>
+    </div>
+    <script src="../JsFile/menu_slider.js"></script>
+</body>
+</html>
