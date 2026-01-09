@@ -90,7 +90,7 @@ li.active a{
     display: flex;
     flex-direction: column;
     padding: 25px;
-    margin: 15px auto;
+    margin: 0 auto;
 }
 
 #yulogo {
@@ -144,6 +144,109 @@ button:hover {
     margin-top: 15px;
 }
 
+main{
+    background-color: #94A378;
+    padding: 30px 0;
+}
+
+footer {
+    background-color: #2D3C59;
+    color: #fff;
+    padding: 30px 50px 10px 50px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.footer_box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer_box h3, .footer_box h4 {
+    color: #D1855C;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.footer_box p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer_box ul {
+    list-style: none;
+}
+
+.footer_box ul li {
+    margin: 5px 0;
+    font-size: 14px;
+    margin-left: 0; 
+}
+
+.footer_box ul li a:hover {
+    color: #D1855C;
+    text-decoration: underline;
+}
+
+.footer_socials {
+    margin-top: 15px;
+}
+
+.footer_socials a {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer_socials a:hover {
+    color: #D1855C;
+}
+
+.footer_bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 12px;
+    color: #888;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #D1855C;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+
+.floating-btn:hover {
+    transform: scale(1.1);
+    background-color: #2D3C59;
+    color: white;
+}
+
+.team_name{
+    font-size: 15px;
+    color: #D1855C;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
     #menu_btn{
         display: inline-block;
@@ -172,7 +275,7 @@ button:hover {
     .nav_bar{
         position: absolute;
         width: 300px;
-        left: 0;
+        left: -100%;
         top: 0;
         background-color: #D1855C;
         flex-direction: column;
@@ -181,6 +284,18 @@ button:hover {
 
     #contact_form {
         width: 400px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+    .footer_container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_socials {
+        justify-content: center;
+        display: flex;
     }
 }
 
@@ -192,5 +307,9 @@ button:hover {
 
     #contact_form {
         width: 550px;
+    }
+
+    .nav_bar{
+        left: -100%;
     }
 }
